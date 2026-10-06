@@ -157,7 +157,7 @@ section+section:before{content:"✦  ✦  ✦";display:block;color:#f6d77a88;let
   <div id="gc">
     <div class="arch sm"><div class="gal"><img id="gph" class="on" alt=""></div></div>
     <div class="hb" id="hb"></div>
-    <div class="gn" id="gname">You</div>
+    <div class="gn" id="gname">Jahan Rika</div>
     <div class="gd">20 November</div>
     <button id="go" class="openbtn">Open ✨</button>
     <p class="sub gh">Turn your sound on 🔊</p>
@@ -217,7 +217,7 @@ section+section:before{content:"✦  ✦  ✦";display:block;color:#f6d77a88;let
     <g id="orbs"></g>
   </svg>
   <p class="sub" style="margin:8px 0 0">20 November</p>
-  <h1>Happy Birthday,<br><span id="nm" contenteditable="true" spellcheck="false">You</span></h1>
+  <h1>Happy Birthday,<br><span id="nm" contenteditable="true" spellcheck="false">Jahan Rika</span></h1>
   <p class="sub" id="state">Remembering you, and praying for you</p>
   <div class="cd">
     <div><b id="d">0</b><small>Days</small></div><div><b id="h">0</b><small>Hours</small></div>
@@ -239,7 +239,7 @@ section+section:before{content:"✦  ✦  ✦";display:block;color:#f6d77a88;let
   <button id="ob">Open the letter</button>
   <div class="letter card" id="lt">
     <div contenteditable="true" spellcheck="false" id="lb">
-      <p>Dear <b class="nmx">You</b>,</p>
+      <p>Dear <b class="nmx">Jahan Rika</b>,</p>
       <p>Today is your birthday. I know our paths have changed now, and someone else walks beside you. Still, some feelings stay quietly in the heart.</p>
       <p>I miss you. But today I won't ask for anything. I will only pray for you.</p>
       <p>May Allah keep you healthy, keep you happy, and fill your life with peace and barakah.</p>
@@ -255,7 +255,7 @@ section+section:before{content:"✦  ✦  ✦";display:block;color:#f6d77a88;let
     <path class="hf" d="M100 160C40 118 12 84 12 52C12 26 32 12 54 12C74 12 90 24 100 42C110 24 126 12 146 12C168 12 188 26 188 52C188 84 160 118 100 160Z" fill="#f6d77a"/>
     <path class="hd" d="M100 160C40 118 12 84 12 52C12 26 32 12 54 12C74 12 90 24 100 42C110 24 126 12 146 12C168 12 188 26 188 52C188 84 160 118 100 160Z" fill="none" stroke="#fff3c4" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="0 9"/>
     <path class="hl" pathLength="100" d="M100 160C40 118 12 84 12 52C12 26 32 12 54 12C74 12 90 24 100 42C110 24 126 12 146 12C168 12 188 26 188 52C188 84 160 118 100 160Z" fill="none" stroke="#f6d77a" stroke-width="1.2" style="filter:drop-shadow(0 0 5px #f6d77a)"/>
-    <text class="nmx" x="100" y="86" text-anchor="middle" font-family="Great Vibes,cursive" font-size="34" fill="#ffe7a3">You</text>
+    <text class="nmx" x="100" y="86" text-anchor="middle" font-family="Great Vibes,cursive" font-size="30" fill="#ffe7a3">Jahan Rika</text>
   </svg>
   <p class="sub" style="margin:6px 0 0">In every star, a prayer for you.</p>
 </section>
@@ -320,7 +320,7 @@ function setName(n){document.querySelectorAll('.nmx').forEach(function(e){e.text
 if(st.name)nm.textContent=st.name;
 if(st.letter)$('lb').innerHTML=st.letter;
 setName(nm.textContent);
-nm.addEventListener('input',function(){var n=nm.textContent.trim()||'You';setName(n);st.name=n;save(st)});
+nm.addEventListener('input',function(){var n=nm.textContent.trim()||'Jahan Rika';setName(n);st.name=n;save(st)});
 nm.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();nm.blur()}});
 $('lb').addEventListener('input',function(){st.letter=$('lb').innerHTML;save(st)});
 
